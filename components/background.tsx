@@ -4,7 +4,7 @@ import dashboard from "../assets/dashboard.jpg";
 
 function Background() {
 	return (
-		<div className="pb-[100px]">
+		<div className="pb-[100px] sm:pb-[50px]">
 			<div className="h-[500px] relative flex justify-center">
 				<Image
 					alt="background"
@@ -22,7 +22,7 @@ function Background() {
 					<Image
 						alt="dashboard"
 						src={dashboard}
-						className="w-full object-contain"
+						className="w-full object-contain min-w-[750px]"
 					/>
 				</div>
 
@@ -31,10 +31,11 @@ function Background() {
 						_Trusted by
 					</h5>
 
-					<div className="flex items-center justify-center gap-[100px]">
+					<div className="flex items-center justify-center gap-[100px] sm:gap-[30px]">
 						<svg
 							xmlns="http://www.w3.org/2000/svg"
 							width="90"
+							className="sm:w-[60px]"
 							fill="#616161"
 							viewBox="0 0 596 194.5"
 							id="google"
@@ -50,6 +51,7 @@ function Background() {
 						<svg
 							xmlns="http://www.w3.org/2000/svg"
 							width="90"
+							className="sm:w-[60px]"
 							fill="#616161"
 							viewBox="0 0 300 81.387"
 							id="netflix"
@@ -61,6 +63,7 @@ function Background() {
 							xmlns="http://www.w3.org/2000/svg"
 							shapeRendering="geometricPrecision"
 							width="90"
+							className="sm:w-[60px]"
 							fill="#616161"
 							viewBox="0 0 240 60"
 							id="slack"
@@ -75,6 +78,7 @@ function Background() {
 						<svg
 							xmlns="http://www.w3.org/2000/svg"
 							width="90"
+							className="sm:w-[60px]"
 							fill="#616161"
 							viewBox="0 0 350.3 90"
 							id="intercom"
